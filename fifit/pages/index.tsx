@@ -31,7 +31,7 @@ export default function Home() {
 
             <div className=" grid grid-cols-2 gap-4 place-items-center md:grid-cols-4 z-10">
               <Link href="calc">
-                <div className=" w-40 h-40 border-4 border-green-500 rounded-md bg-neutral-200 drop-shadow-xl hover:scale-110 transition duration-300 active:scale-90 flex flex-col items-center justify-evenly">
+                <div className=" w-40 h-40 border-4 border-green-500 rounded-md backdrop-blur-sm bg-white/30 drop-shadow-xl hover:scale-110 transition duration-300 active:scale-90 flex flex-col items-center justify-evenly">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -50,7 +50,7 @@ export default function Home() {
                 </div>
               </Link>
               <Link href="dashboard">
-                <div className=" w-40 h-40 border-4 border-green-500 rounded-md bg-neutral-200 drop-shadow-xl hover:scale-110 transition duration-300 active:scale-90 flex flex-col items-center justify-evenly">
+                <div className=" w-40 h-40 border-4 border-green-500 rounded-md backdrop-blur-sm bg-white/30 drop-shadow-xl hover:scale-110 transition duration-300 active:scale-90 flex flex-col items-center justify-evenly">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -69,7 +69,7 @@ export default function Home() {
                 </div>
               </Link>
               <Link href='chat'>
-              <div className=" w-40 h-40 border-4 border-green-500 rounded-md bg-neutral-200 drop-shadow-xl hover:scale-110 transition duration-300 active:scale-90 flex flex-col items-center justify-evenly">
+              <div className=" w-40 h-40 border-4 border-green-500 rounded-md backdrop-blur-sm bg-white/30 drop-shadow-xl hover:scale-110 transition duration-300 active:scale-90 flex flex-col items-center justify-evenly">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -88,7 +88,7 @@ export default function Home() {
                 </div>
               </Link>
               <Link href="random">
-                <div className=" w-40 h-40 border-4 border-green-500 rounded-md bg-neutral-200 drop-shadow-xl hover:scale-110 transition duration-300 active:scale-90 flex flex-col items-center justify-evenly">
+                <div className=" w-40 h-40 border-4 border-green-500 rounded-md backdrop-blur-sm bg-white/30 drop-shadow-xl hover:scale-110 transition duration-300 active:scale-90 flex flex-col items-center justify-evenly">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
